@@ -1,0 +1,14 @@
+<div class="wishes">
+    <div class="wishes-title">
+        <h1>Happy Birthday to you Laura</h1>
+    </div>
+    {{#each wishers}}
+    <div class="wishes-card">
+        <div class="wishes-name"> {{ name }}</div>
+        <div class="wishes-content">
+            {{ file }}
+        </div>
+        <div class="wishes-message"> {{ message }}</div>
+    </div>
+    {{/each}}
+</div>
